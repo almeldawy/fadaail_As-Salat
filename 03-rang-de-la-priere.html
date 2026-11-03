@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le rang de la prière en islam — Fadâ'il as-Salât</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progression" aria-hidden="true"></div>
+<header class="bandeau">
+  <button type="button" id="ouvrir-lat" class="ouvrir-lat" aria-label="Ouvrir le sommaire" aria-controls="lateral">☰</button>
+  <a class="marque" href="index.html"><span class="marque-ar" lang="ar" dir="rtl">فَضَائِلُ الصَّلَاةِ</span><span class="marque-fr">Les mérites de la prière</span></a>
+  <div class="outils">
+    <button type="button" id="moins" title="Réduire le texte" aria-label="Réduire le texte">A−</button>
+    <button type="button" id="plus" title="Agrandir le texte" aria-label="Agrandir le texte">A+</button>
+    <button type="button" id="theme" title="Changer de thème" aria-label="Changer de thème">◐</button>
+  </div>
+</header>
+<div class="mise-en-page">
+<aside class="lateral" id="lateral" aria-label="Sommaire">
+  <div class="lat-tete"><p class="lat-livre">Sommaire</p><button type="button" id="fermer-lat" class="fermer-lat" aria-label="Fermer le sommaire">✕</button></div>
+  <nav><ol class="lat-liste"><li class="" data-page="index.html"><a href="index.html"><span class="lat-titre">Introduction</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="01-presentation.html"><a href="01-presentation.html"><span class="lat-num">Chapitre 1</span><span class="lat-titre">Présentation</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="02-preambule.html"><a href="02-preambule.html"><span class="lat-num">Chapitre 2</span><span class="lat-titre">Préambule</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="actif" data-page="03-rang-de-la-priere.html"><a href="03-rang-de-la-priere.html" aria-current="page"><span class="lat-num">Chapitre 3</span><span class="lat-titre">Le rang de la prière en islam</span><span class="lu" aria-hidden="true">✓</span></a><ol class="sous"><li><a href="#notes">Notes</a></li></ol></li><li class="" data-page="04-merites-de-la-priere.html"><a href="04-merites-de-la-priere.html"><span class="lat-num">Chapitre 4</span><span class="lat-titre">Les mérites de la prière</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="05-statut-de-celui-qui-delaisse.html"><a href="05-statut-de-celui-qui-delaisse.html"><span class="lat-num">Chapitre 5</span><span class="lat-titre">Le statut de celui qui délaisse la prière — Les preuves du Livre</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="06-preuves-de-la-sunna.html"><a href="06-preuves-de-la-sunna.html"><span class="lat-num">Chapitre 6</span><span class="lat-titre">Les preuves tirées de la Sunna</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="07-commentaire-ibn-baz.html"><a href="07-commentaire-ibn-baz.html"><span class="lat-num">Chapitre 7</span><span class="lat-titre">Commentaire de Son Éminence l'imam ʿAbd al-ʿAzîz ibn Bâz</span><span class="lu" aria-hidden="true">✓</span></a></li></ol></nav>
+  <div class="lat-pied">
+    <div class="lat-prog"><div class="lat-prog-barre" id="lat-prog-barre"></div></div>
+    <p id="lat-prog-texte" class="lat-prog-texte">Aucun chapitre lu</p>
+    <button type="button" id="reinit" class="reinit">Réinitialiser la progression</button>
+  </div>
+</aside>
+<div class="voile" id="voile" hidden></div>
+<div class="colonne">
+<main class="page" data-page="03-rang-de-la-priere.html">
+<article>
+<p class="surtitre">Chapitre 3</p>
+<h1>Le rang de la prière en islam</h1>
+<p class="titre-ar" lang="ar" dir="rtl">مَكَانَةُ الصَّلَاةِ فِي الإِسْلَامِ</p>
+<div class="filet"></div>
+<p>La prière — dont nul n'ignore le rang en islam — est le deuxième des piliers de l'islam après les deux attestations de foi (ach-chahâdatân). L'islam a en effet été bâti sur cinq piliers : l'attestation qu'il n'y a de divinité [digne d'adoration] qu'Allah et que Muhammad est le Messager d'Allah, l'accomplissement de la prière, l'acquittement de la zakât, le jeûne de Ramadan et le pèlerinage à la Maison sacrée d'Allah. Le fait que la prière vienne au deuxième rang, après les deux attestations, indique son importance en islam et son rang dans la religion.</p>
+<p>De plus, outre qu'elle est le deuxième pilier de l'islam, venant dans l'ordre juste après les deux attestations, elle est le pilier central (ʿamûd) de l'islam, comme cela est rapporté dans le hadith :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar bloc-hadith" dir="rtl" lang="ar"><p>(رَأْسُ الأَمْرِ الإِسْلَامُ وَعَمُودُهُ الصَّلَاةُ وَذِرْوَةُ سَنَامِهِ الجِهَادُ)</p><span class="source-ar">أَخْرَجَهُ التِّرْمِذِيُّ (٢٦١٦)، وَالنَّسَائِيُّ فِي الكُبْرَى (١١٣٩٤)، وَابْنُ مَاجَهْ (٣٩٧٣)</span></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr bloc-hadith" lang="fr"><p>« La tête de l'affaire est l'islam, son pilier central est la prière, et le sommet de sa bosse est le jihâd. »</p><span class="source-fr">Rapporté par at-Tirmidhî (2616), an-Nasâ'î dans <i>As-Sunan al-Kubrâ</i> (11394) et Ibn Mâja (3973).</span></blockquote>
+</div>
+
+<p>Or il est connu que tout édifice ne tient que sur un pilier : si le pilier est défaillant ou absent, l'édifice s'écroule. De même, l'islam ne tient que si la prière est effectivement présente et accomplie comme Allah — gloire et pureté à Lui — l'a ordonné.</p>
+<p>Parmi ce qui indique l'importance de cette adoration, c'est qu'elle a fait l'objet de la sollicitude des prophètes — que la prière et le salut soient sur eux. Ainsi Ibrâhîm — que la prière et le salut soient sur lui — dit dans son invocation :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِن ذُرِّيَّتِي ۚ رَبَّنَا وَتَقَبَّلْ دُعَاءِ﴾ <span class="ref-ar">[إبراهيم: ٤٠]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Seigneur ! Fais que j'accomplisse assidûment la prière, ainsi qu'une partie de ma descendance. Notre Seigneur ! Et exauce mon invocation. » <span class="ref-fr">[Ibrâhîm : 40]</span></p></blockquote>
+</div>
+
+<p>Et Ismâʿîl, au sujet duquel Allah le Très-Haut dit :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿وَاذْكُرْ فِي الْكِتَابِ إِسْمَاعِيلَ ۚ إِنَّهُ كَانَ صَادِقَ الْوَعْدِ وَكَانَ رَسُولًا نَّبِيًّا ۝ وَكَانَ يَأْمُرُ أَهْلَهُ بِالصَّلَاةِ وَالزَّكَاةِ وَكَانَ عِندَ رَبِّهِ مَرْضِيًّا﴾ <span class="ref-ar">[مريم: ٥٤ - ٥٥]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Et mentionne, dans le Livre, Ismâʿîl. Il était certes fidèle à sa promesse, et c'était un messager, un prophète. Il ordonnait à sa famille la prière et la zakât, et il était agréé auprès de son Seigneur. » <span class="ref-fr">[Maryam : 54-55]</span></p></blockquote>
+</div>
+
+<p>Et Allah le Très-Haut a dit à Moïse :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿وَهَلْ أَتَاكَ حَدِيثُ مُوسَىٰ﴾ <span class="ref-ar">[طه: ٩]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« T'est-il parvenu le récit de Moïse ? » <span class="ref-fr">[Tâ-Hâ : 9]</span></p></blockquote>
+</div>
+
+<p>jusqu'à Sa parole :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿إِنَّنِي أَنَا اللَّهُ لَا إِلَٰهَ إِلَّا أَنَا فَاعْبُدْنِي وَأَقِمِ الصَّلَاةَ لِذِكْرِي﴾ <span class="ref-ar">[طه: ١٤]<sup class="appel"><a href="#n1" id="a1">1</a></sup></span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Certes, c'est Moi, Allah : point de divinité [digne d'adoration] en dehors de Moi. Adore-Moi donc et accomplis la prière pour te souvenir de Moi. » <span class="ref-fr">[Tâ-Hâ : 14]</span></p></blockquote>
+</div>
+
+<p>Et ʿÎsâ (Jésus) — que le salut soit sur lui —, au sujet duquel Allah dit :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿قَالَ إِنِّي عَبْدُ اللَّهِ آتَانِيَ الْكِتَابَ وَجَعَلَنِي نَبِيًّا ۝ وَجَعَلَنِي مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَانِي بِالصَّلَاةِ وَالزَّكَاةِ مَا دُمْتُ حَيًّا﴾ <span class="ref-ar">[مريم: ٣٠ - ٣١]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Il dit : “Je suis le serviteur d'Allah. Il m'a donné le Livre et m'a fait prophète. Il m'a rendu béni où que je sois, et Il m'a recommandé la prière et la zakât tant que je vivrai.” » <span class="ref-fr">[Maryam : 30-31]</span></p></blockquote>
+</div>
+
+<p>Et à notre Prophète Muhammad (paix et salut sur lui), Allah dit :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿وَأْمُرْ أَهْلَكَ بِالصَّلَاةِ وَاصْطَبِرْ عَلَيْهَا﴾ <span class="ref-ar">[طه: ١٣٢]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Et ordonne à ta famille la prière, et persévère-y avec constance. » <span class="ref-fr">[Tâ-Hâ : 132]</span></p></blockquote>
+</div>
+
+<p>Et il (paix et salut sur lui) dit :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar bloc-hadith" dir="rtl" lang="ar"><p>(جُعِلَتْ قُرَّةُ عَيْنِي فِي الصَّلَاةِ)</p><span class="source-ar">أَخْرَجَهُ النَّسَائِيُّ (٣٣٩٢)</span></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr bloc-hadith" lang="fr"><p>« La fraîcheur de mon œil a été placée dans la prière. »</p><span class="source-fr">Rapporté par an-Nasâ'î (3392).</span></blockquote>
+</div>
+
+<p>Parmi ce qui indique encore l'importance de cette adoration, c'est qu'Allah l'a distinguée par des statuts qu'Il n'a pas donnés à d'autres. Parmi cela : Il a ordonné la purification pour elle :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَاطَّهَّرُوا﴾ <span class="ref-ar">[المائدة: ٦]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Ô vous qui avez cru ! Lorsque vous vous levez pour la prière, lavez vos visages et vos mains jusqu'aux coudes, passez [les mains mouillées] sur vos têtes et [lavez] vos pieds jusqu'aux chevilles. Et si vous êtes en état de grande impureté (junub), purifiez-vous. » <span class="ref-fr">[Al-Mâ'ida : 6]</span></p></blockquote>
+</div>
+
+<p>De même, Il a ordonné la pureté des vêtements et la pureté de l'endroit où l'on prie, et Il a placé parmi ses conditions l'orientation vers la qibla (la Kaʿba honorée) :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿فَوَلِّ وَجْهَكَ شَطْرَ الْمَسْجِدِ الْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا وُجُوهَكُمْ شَطْرَهُ﴾ <span class="ref-ar">[البقرة: ١٤٤]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Tourne donc ton visage vers la Mosquée sacrée ; et où que vous soyez, tournez vos visages dans sa direction. » <span class="ref-fr">[Al-Baqara : 144]</span></p></blockquote>
+</div>
+
+<p>— c'est-à-dire dans la prière. De même, Il a ordonné de construire les mosquées pour elle :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿فِي بُيُوتٍ أَذِنَ اللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا اسْمُهُ يُسَبِّحُ لَهُ فِيهَا بِالْغُدُوِّ وَالْآصَالِ ۝ رِجَالٌ لَّا تُلْهِيهِمْ تِجَارَةٌ وَلَا بَيْعٌ عَن ذِكْرِ اللَّهِ وَإِقَامِ الصَّلَاةِ وَإِيتَاءِ الزَّكَاةِ﴾ <span class="ref-ar">[النور: ٣٦ - ٣٧]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Dans des maisons qu'Allah a permis que l'on élève et où Son nom est invoqué, Le glorifient, matin et soir, des hommes que ni commerce ni vente ne distraient de l'évocation d'Allah, de l'accomplissement de la prière et de l'acquittement de la zakât. » <span class="ref-fr">[An-Nûr : 36-37]</span></p></blockquote>
+</div>
+
+<p>Et :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿إِنَّمَا يَعْمُرُ مَسَاجِدَ اللَّهِ مَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ وَأَقَامَ الصَّلَاةَ وَآتَى الزَّكَاةَ وَلَمْ يَخْشَ إِلَّا اللَّهَ ۖ فَعَسَىٰ أُولَٰئِكَ أَن يَكُونُوا مِنَ الْمُهْتَدِينَ﴾ <span class="ref-ar">[التوبة: ١٨]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Ne peuplent les mosquées d'Allah que ceux qui croient en Allah et au Jour dernier, accomplissent la prière, acquittent la zakât et ne craignent qu'Allah. Il se peut que ceux-là soient parmi les bien-guidés. » <span class="ref-fr">[At-Tawba : 18]</span></p></blockquote>
+</div>
+
+<p>Il a institué pour elle l'appel (al-adhân), lancé de la voix la plus haute lorsque son heure entre, pour annoncer l'entrée de son heure et y appeler ; et Il en a fait l'un des rites apparents de l'islam dont on ne peut se passer : « Venez à la prière ! Venez à la réussite ! » (Hayya ʿalâ as-salât, hayya ʿalâ al-falâh). Cinq fois par jour et par nuit, cet appel est lancé publiquement, invitation à cette adoration, à y assister et à l'accomplir.</p>
+<p>Sa mention se répète dans le Livre d'Allah — à Lui la puissance et la majesté — dans de nombreux versets : ordonnant de l'accomplir, ordonnant de la préserver et d'y être assidu, et promettant la récompense, le Paradis et le Firdaws à quiconque y est assidu et la préserve :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿قَدْ أَفْلَحَ الْمُؤْمِنُونَ ۝ الَّذِينَ هُمْ فِي صَلَاتِهِمْ خَاشِعُونَ﴾ <span class="ref-ar">[المؤمنون: ١ - ٢]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Ont réussi, certes, les croyants, ceux qui sont humbles et recueillis dans leur prière. » <span class="ref-fr">[Al-Mu'minûn : 1-2]</span></p></blockquote>
+</div>
+
+<p>jusqu'à Sa parole — le Très-Haut :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar" dir="rtl" lang="ar"><p>﴿وَالَّذِينَ هُمْ عَلَىٰ صَلَوَاتِهِمْ يُحَافِظُونَ ۝ أُولَٰئِكَ هُمُ الْوَارِثُونَ ۝ الَّذِينَ يَرِثُونَ الْفِرْدَوْسَ هُمْ فِيهَا خَالِدُونَ﴾ <span class="ref-ar">[المؤمنون: ٩ - ١١]</span></p></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr" lang="fr"><p>« Et ceux qui préservent leurs prières : ce sont eux les héritiers, qui hériteront du Firdaws, où ils demeureront éternellement. » <span class="ref-fr">[Al-Mu'minûn : 9-11]</span></p></blockquote>
+</div>
+
+<p>Il a donc commencé [l'énumération des] bonnes œuvres par la mention de la prière et l'a conclue par elle, ce qui indique son importance, son rang et son mérite.</p>
+<p>La marche vers la prière est une adoration envers Allah — gloire et pureté à Lui : Allah inscrit les pas de celui qui s'y rend ; pour chaque pas qu'il fait, Il l'élève d'un degré et efface de lui un péché, que ses pas soient peu nombreux ou nombreux.</p>
+<p>L'attendre est une adoration : celui qui attend la prière ne cesse d'être en prière et il a la récompense de celui qui prie ; et l'attendre est un poste de garde (ribât) dans le sentier d'Allah. Il (paix et salut sur lui) a dit :</p>
+<div class="citation">
+<p class="etiquette">Texte arabe :</p>
+<blockquote class="bloc-ar bloc-hadith" dir="rtl" lang="ar"><p>(أَلَا أَدُلُّكُمْ عَلَى مَا يَمْحُو اللَّهُ بِهِ الخَطَايَا وَيَرْفَعُ بِهِ الدَّرَجَاتِ)، قَالُوا: بَلَى يَا رَسُولَ اللَّهِ، قَالَ: (إِسْبَاغُ الوُضُوءِ عَلَى المَكَارِهِ، وَكَثْرَةُ الخُطَى إِلَى المَسَاجِدِ، وَانْتِظَارُ الصَّلَاةِ بَعْدَ الصَّلَاةِ، فَذَلِكُمُ الرِّبَاطُ)</p><span class="source-ar">أَخْرَجَهُ مُسْلِمٌ (٢٥١)</span></blockquote>
+
+<p class="etiquette">Traduction française :</p>
+<blockquote class="bloc-fr bloc-hadith" lang="fr"><p>« Ne vous indiquerai-je pas ce par quoi Allah efface les fautes et élève les degrés ? » Ils dirent : « Si, ô Messager d'Allah ! » Il dit : « Parfaire les ablutions malgré les désagréments, multiplier les pas vers les mosquées et attendre la prière après la prière : voilà pour vous le ribât. »</p><span class="source-fr">Rapporté par Muslim (251).</span></blockquote>
+</div>
+
+<p>Allah — gloire et pureté à Lui — l'a prescrite à Son Prophète et à sa communauté la nuit du Voyage nocturne (al-Isrâ'), avant l'Hégire ; et rien des législations de l'islam ne fut ordonné, après le tawhîd, avant la prière. Elle fut en effet légiférée et prescrite au Prophète (paix et salut sur lui) et à sa communauté avant qu'il n'émigre à Médine, lorsqu'il fut transporté de nuit jusqu'à Jérusalem (Bayt al-Maqdis) et élevé au ciel ; elle lui fut prescrite au-dessus des cieux, là où il fut élevé, en ce lieu immense : Allah lui prescrivit les prières en ce lieu et en cette nuit immense. Cela n'eut lieu pour aucune autre des législations de l'islam, ce qui indique son importance et son rang auprès d'Allah — gloire et pureté à Lui.</p>
+<section class="notes" id="notes"><h2>Notes</h2>
+<ol>
+<li id="n1"><b>Remarque du traducteur :</b> dans le scan de l'édition originale (p. 11), la référence imprimée après ce verset semble être « Tâ-Hâ : 40 ». Le passage cité correspond au verset 14 de la sourate Tâ-Hâ — référence que l'auteur donne d'ailleurs lui-même plus loin (p. 34) pour le même verset. Le texte arabe du verset n'a pas été modifié. <a class="retour" href="#a1" aria-label="Revenir au texte">↩</a></li>
+</ol></section>
+</article>
+<nav class="pagination">
+<a class="prec" href="02-preambule.html">← Préambule</a>
+<a class="sommaire-lien" href="index.html#sommaire">Sommaire</a>
+<a class="suiv" href="04-merites-de-la-priere.html">Les mérites de la prière →</a>
+</nav>
+</main>
+<footer class="pied">
+  <p>Les mérites de la prière, le statut de celui qui la délaisse et son châtiment — Cheikh Sâlih ibn Fawzân Al-Fawzân, avec le commentaire du Cheikh ʿAbd al-ʿAzîz ibn Bâz.<br>Traduction française.</p>
+</footer>
+</div>
+</div>
+<button type="button" id="haut" aria-label="Revenir en haut">↑</button>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Présentation — Fadâ'il as-Salât</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progression" aria-hidden="true"></div>
+<header class="bandeau">
+  <button type="button" id="ouvrir-lat" class="ouvrir-lat" aria-label="Ouvrir le sommaire" aria-controls="lateral">☰</button>
+  <a class="marque" href="index.html"><span class="marque-ar" lang="ar" dir="rtl">فَضَائِلُ الصَّلَاةِ</span><span class="marque-fr">Les mérites de la prière</span></a>
+  <div class="outils">
+    <button type="button" id="moins" title="Réduire le texte" aria-label="Réduire le texte">A−</button>
+    <button type="button" id="plus" title="Agrandir le texte" aria-label="Agrandir le texte">A+</button>
+    <button type="button" id="theme" title="Changer de thème" aria-label="Changer de thème">◐</button>
+  </div>
+</header>
+<div class="mise-en-page">
+<aside class="lateral" id="lateral" aria-label="Sommaire">
+  <div class="lat-tete"><p class="lat-livre">Sommaire</p><button type="button" id="fermer-lat" class="fermer-lat" aria-label="Fermer le sommaire">✕</button></div>
+  <nav><ol class="lat-liste"><li class="" data-page="index.html"><a href="index.html"><span class="lat-titre">Introduction</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="actif" data-page="01-presentation.html"><a href="01-presentation.html" aria-current="page"><span class="lat-num">Chapitre 1</span><span class="lat-titre">Présentation</span><span class="lu" aria-hidden="true">✓</span></a><ol class="sous"><li><a href="#s1">Origine de ce livre</a></li><li><a href="#s2">Présentation</a></li><li><a href="#s3">Autorisation d'impression</a></li></ol></li><li class="" data-page="02-preambule.html"><a href="02-preambule.html"><span class="lat-num">Chapitre 2</span><span class="lat-titre">Préambule</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="03-rang-de-la-priere.html"><a href="03-rang-de-la-priere.html"><span class="lat-num">Chapitre 3</span><span class="lat-titre">Le rang de la prière en islam</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="04-merites-de-la-priere.html"><a href="04-merites-de-la-priere.html"><span class="lat-num">Chapitre 4</span><span class="lat-titre">Les mérites de la prière</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="05-statut-de-celui-qui-delaisse.html"><a href="05-statut-de-celui-qui-delaisse.html"><span class="lat-num">Chapitre 5</span><span class="lat-titre">Le statut de celui qui délaisse la prière — Les preuves du Livre</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="06-preuves-de-la-sunna.html"><a href="06-preuves-de-la-sunna.html"><span class="lat-num">Chapitre 6</span><span class="lat-titre">Les preuves tirées de la Sunna</span><span class="lu" aria-hidden="true">✓</span></a></li><li class="" data-page="07-commentaire-ibn-baz.html"><a href="07-commentaire-ibn-baz.html"><span class="lat-num">Chapitre 7</span><span class="lat-titre">Commentaire de Son Éminence l'imam ʿAbd al-ʿAzîz ibn Bâz</span><span class="lu" aria-hidden="true">✓</span></a></li></ol></nav>
+  <div class="lat-pied">
+    <div class="lat-prog"><div class="lat-prog-barre" id="lat-prog-barre"></div></div>
+    <p id="lat-prog-texte" class="lat-prog-texte">Aucun chapitre lu</p>
+    <button type="button" id="reinit" class="reinit">Réinitialiser la progression</button>
+  </div>
+</aside>
+<div class="voile" id="voile" hidden></div>
+<div class="colonne">
+<main class="page" data-page="01-presentation.html">
+<article>
+<p class="surtitre">Chapitre 1</p>
+<h1>Présentation</h1>
+<p class="titre-ar" lang="ar" dir="rtl">تَقْدِيمٌ</p>
+<div class="filet"></div>
+<h2 id="s1">Origine de ce livre</h2>
+<p>Conférence de Son Excellence le Cheikh Docteur Sâlih ibn Fawzân Al-Fawzân, donnée à la Grande Mosquée (al-Jâmiʿ al-Kabîr) de Riyad, avec les commentaires de Son Éminence le Cheikh ʿAbd al-ʿAzîz ibn ʿAbd Allâh ibn Bâz — qu'Allah lui fasse miséricorde.</p>
+<h2 id="s2">Présentation</h2>
+<p>Louange à Allah, Seigneur des mondes, et que la prière et le salut soient sur le plus noble des prophètes et des messagers, notre Prophète Muhammad, ainsi que sur sa famille et ses compagnons — la meilleure des prières et le meilleur des saluts. Cela dit :</p>
+<p>La prière (as-salât) est le deuxième pilier de l'islam, et elle possède un mérite immense. La construction de la mosquée fut la première chose instituée qu'ordonna le Messager d'Allah (paix et salut sur lui) lorsqu'il émigra à Médine ; et de même, la dernière chose qu'il recommanda au moment de quitter ce bas monde fut la prière. Cela fait partie de ce qui indique son importance. Cependant, certaines personnes l'ont négligée : elles ne l'accomplissent plus à son heure et ont négligé d'y assister en groupe (al-jamâʿa).</p>
+<p>Son Excellence notre cheikh, le Docteur Sâlih ibn Fawzân Al-Fawzân, avait donné une conférence sur la prière, ses mérites, le statut de celui qui la délaisse et son châtiment ; il la prononça à la Grande Mosquée de Riyad, avec des commentaires de Son Éminence le Cheikh ʿAbd al-ʿAzîz ibn Bâz — qu'Allah lui fasse miséricorde. Je l'ai donc transcrite et préparée pour la publication, et ce, sur indication de notre cheikh, Son Éminence le Cheikh Docteur Sâlih ibn Fawzân Al-Fawzân — qu'Allah le préserve —, qui l'a révisée ; qu'il en soit remercié et récompensé.</p>
+<p>Pour conclure, je demande à Allah d'en faire profiter, de rétribuer notre cheikh de la meilleure des rétributions et de pardonner à Son Éminence le Cheikh ʿAbd al-ʿAzîz ibn Bâz.</p>
+<p class="signature">Fahd ibn Ibrâhîm Al-Fuʿaym<br>Riyad 11365 — B.P. 39484<br>Courriel : msjd@gawab.com</p>
+<h2 id="s3">Autorisation d'impression</h2>
+<p>Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux.</p>
+<p>Louange à Allah. Cela dit : j'ai autorisé le cheikh Fahd ibn Ibrâhîm Al-Fuʿaym à imprimer ma conférence « Les mérites de la prière, le statut de celui qui la délaisse et son châtiment ». Je l'ai autorisé à l'imprimer et à la diffuser avec le commentaire de Son Éminence notre cheikh ʿAbd al-ʿAzîz ibn Bâz sur celle-ci et l'appui qu'il lui a apporté.</p>
+<p>Qu'Allah en fasse profiter tout le monde et qu'Il récompense le cheikh Fahd ibn Ibrâhîm en bien pour ses efforts. Et qu'Allah prie sur notre Prophète Muhammad, sur sa famille et sur ses compagnons, et les salue.</p>
+<p class="signature">Écrit par Sâlih ibn Fawzân Al-Fawzân<br>Membre du Conseil des grands savants<br>25/4/1429 H.</p>
+<p><em>[Note du traducteur : l'édition originale reproduit, sur la page suivante, le fac-similé manuscrit de cette même autorisation, de la main de l'auteur ; son texte est identique à celui traduit ci-dessus.]</em></p>
+
+</article>
+<nav class="pagination">
+<a class="prec" href="index.html">← Introduction</a>
+<a class="sommaire-lien" href="index.html#sommaire">Sommaire</a>
+<a class="suiv" href="02-preambule.html">Préambule →</a>
+</nav>
+</main>
+<footer class="pied">
+  <p>Les mérites de la prière, le statut de celui qui la délaisse et son châtiment — Cheikh Sâlih ibn Fawzân Al-Fawzân, avec le commentaire du Cheikh ʿAbd al-ʿAzîz ibn Bâz.<br>Traduction française.</p>
+</footer>
+</div>
+</div>
+<button type="button" id="haut" aria-label="Revenir en haut">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
